@@ -1,0 +1,163 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+
+}
+
+.copyright{
+display: flex;
+justify-content: center;
+background-color: #1F2937;
+color: #E5E7EB;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+
+    
+
+}
+
+.footer-inside{
+    display: inline-flex;
+    background-color: #3882F6;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 55px;
+}
+
+.footer-right button{
+    padding: 20px 40px;
+    margin: 25px;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #3882F6;;
+
+}
+
+.header{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 0 10% 5% 10%;
+    
+    
+
+}
+
+.header ul{
+    display: inline-flex;
+    list-style: none;
+    gap: 15px
+    
+}
+
+.main-introduction{
+    display: inline-flex;
+    background-color: #1F2937;
+    padding: 20px;
+    justify-content: space-between;
+    padding: 0 10% 5% 10%;
+    color: #F9FAF8
+  
+
+
+}
+
+.main-introduction div{
+    max-width: 400px;
+
+}
+
+.introduction-left p{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.random-info{
+    margin: 20px 0 0 0 ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+.random-list ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+
+.random-list .square{
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 100px;
+    height: 100px; 
+    justify-content: space-evenly;
+
+
+}
+
+.random-list{
+
+    display: flex;
+justify-content: center;
+}
+
+.random-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.random-list .text{
+
+    width: 150px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.random-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+
+.testimo{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 10%;
+
+
+}
+
+.testi-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937
+
+}
+
+.testi-sign{
+  font-weight: bold;
+  text-align: right;
+  color: #1F2937
+}
